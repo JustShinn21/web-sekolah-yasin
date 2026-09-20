@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA GARUDA BHAKTI PERTIWI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <span><i class="fas fa-phone"></i> (0111) 1111</span>
+                <span><i class="fas fa-envelope"></i> info@smagarudabhaktipertiwi.sch.id</span>
+                <div class="top-bar-links">
+                    <a href="https://www.facebook.com/share/1AVpjNFxgV/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/garbhap_officialaccout?stkn=MWhzanh1djJnMWVqNw=="><i class="fab fa-instagram"></i></a>
+                    <a href="tiktok.com/@garudabhaktipertiwi_offi"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://youtube.com/@garbhap?si=3cm5l-6-2D_oShLA"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="Garuda Bhakti Pertiwi.png" alt="Logo SMA Garuda Bhakti Pertiwi">
+                    <div class="logo-text">
+                        <h1>SMA GARUDA BHAKTI PERTIWI</h1>
+                        <p>Unggul dalam Prestasi, Berbudaya, dan Berwawasan Global</p>
+                    </div>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation" id="mainNav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#">Profil <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                            <a href="sejarah.html">Sejarah</a>
+                        <a href="visimisi.html">Visi & Misi</a>
+                        <a href="strukturorganisasi.html">Struktur Organisasi</a>
+                        <a href="gurustafftu.html">Guru & Staf</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Akademik <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="kurikulum.html">Kurikulum</a>
+                        <a href="kalender.html">Kalender Akademik</a>
+                        <a href="prestasi.html">Prestasi</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Kesiswaan <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="struktur osis.html">OSIS</a>
+                        <a href="daftareskul.html">Ekstrakurikuler</a>
+                        <a href="daftareskul.html">Organisasi</a>
+                    </div>
+                </li>
+                <li><a href="berita.html">Berita</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="PPDB.html">PPDB</a></li>
+                <li><a href="https://wa.me/6289673968850">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slide active">
+            <video class="slide-video" autoplay muted loop playsinline poster="Kelulusan.png">
+                <source src="WhatsApp Video 2026-09-20 at 08.52.20.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="container slide-content">
+                <h2>Selamat Datang di SMA Garuda Bhakti Pertiwi</h2>
+                <p>Menjadi sekolah unggulan yang menghasilkan lulusan berkualitas dan berkarakter</p>
+                <a href="PPDB.html" class="btn-primary">Info PPDB 2026</a>
+            </div>
+        </div>
+        <div class="slide">
+            <video class="slide-video" muted loop playsinline poster="Kelulusan.png">
+                <source src="WhatsApp Video 2026-09-20 at 08.52.20.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="container slide-content">
+                <h2>Prestasi Membanggakan</h2>
+                <p>Raih prestasi di berbagai bidang akademik dan non-akademik</p>
+                <a href="piala.png" class="btn-primary">Lihat Prestasi</a>
+            </div>
+        </div>
+        <div class="slide">
+            <video class="slide-video" muted loop playsinline poster="Kelulusan.png">
+                <source src="WhatsApp Video 2026-09-20 at 08.52.20.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="container slide-content">
+                <h2>Lingkungan Belajar Modern</h2>
+                <p>Fasilitas lengkap untuk mendukung proses pembelajaran</p>
+                <a href="PPDB.html" class="btn-primary">Lihat Fasilitas</a>
+            </div>
+        </div>
+        <button class="slider-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </section>
+
+    <!-- Quick Info Cards -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="quick-info-grid">
+                <div class="info-card">
+                    <i class="fas fa-users"></i>
+                    <h3>500+</h3>
+                    <p>Siswa Aktif</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>30+</h3>
+                    <p>Guru & Staff</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>100+</h3>
+                    <p>Prestasi</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-building"></i>
+                    <h3>50+</h3>
+                    <p>Fasilitas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="latest-news">
+        <div class="container">
+            <h2 class="section-title">Berita Terbaru</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="squadlt1.png" alt="Berita 1">
+                    <div class="news-content">
+                        <span class="news-date"><i class="fas fa-calendar"></i> 3 maret 2024</span>
+                        <h3>Tim Pramuka Siswa SMA Garuda Bhakti Pertiwi </h3>
+                        <p> Berhasil Meraih juara 1 pada Kompetisi Lomba Tingkat 1...</p>
+                        <a href="lt1.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Berita 2">
+                    <div class="news-content">
+                        <span class="news-date"><i class="fas fa-calendar"></i> 8 Januari 2024</span>
+                        <h3>SMA Garuda Bhakti Pertiwi Gelar Pentas Seni Budaya</h3>
+                        <p>Pentas seni tahunan menampilkan berbagai kesenian tradisional dan modern...</p>
+                        <a href="lt1.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Berita 3">
+                    <div class="news-content">
+                        <span class="news-date"><i class="fas fa-calendar"></i> 5 Januari 2024</span>
+                        <h3>Workshop Pengembangan Diri untuk Guru</h3>
+                        <p>Para guru mengikuti workshop pengembangan kompetensi mengajar...</p>
+                        <a href="lt1.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcement & Agenda -->
+    <section class="announcement-agenda">
+        <div class="container">
+            <div class="announcement-agenda-grid">
+                <div class="announcement-box">
+                    <h2>Pengumuman</h2>
+                    <div class="announcement-list">
+                        <div class="announcement-item">
+                            <span class="badge">Baru</span>
+                            <p>Pengumuman hasil seleksi PPDB 2026</p>
+                            <small>2 hari lalu</small>
+                        </div>
+                        <div class="announcement-item">
+                            <span class="badge bad">Penting</span>
+                            <p>Pembagian rapor semester ganjil</p>
+                            <small>5 hari lalu</small>
+                        </div>
+                        <div class="announcement-item">
+                            <span class="badge">Info</span>
+                            <p>Jadwal kegiatan ekstrakurikuler</p>
+                            <small>1 minggu lalu</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="agenda-box">
+                    <h2>Agenda Kegiatan</h2>
+                    <div class="agenda-list">
+                        <div class="agenda-item">
+                            <div class="agenda-date">15<br>Jan</div>
+                            <div class="agenda-info">
+                                <h4>Rapat Guru</h4>
+                                <p><i class="fas fa-clock"></i> 08:00 - 10:00</p>
+                            </div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-date">18<br>Jan</div>
+                            <div class="agenda-info">
+                                <h4>Lomba Cerdas Cermat</h4>
+                                <p><i class="fas fa-clock"></i> 07:30 - 12:00</p>
+                            </div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-date">20<br>Jan</div>
+                            <div class="agenda-info">
+                                <h4>Workshop IT</h4>
+                                <p><i class="fas fa-clock"></i> 09:00 - 15:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- School Location -->
+    <section class="school-location" id="lokasi">
+        <div class="container">
+            <div class="location-heading">
+                <div>
+                    <p class="eyebrow">Temukan Kami</p>
+                    <h2>Lokasi Sekolah</h2>
+                </div>
+                <a class="location-link" href="https://www.google.com/maps/search/?api=1&query=Jl.+HOS+Cokroaminoto+No.10,+Yogyakarta" target="_blank" rel="noopener noreferrer"><i class="fas fa-directions"></i> Buka di Google Maps</a>
+            </div>
+            <div class="map-frame">
+                <iframe src="https://www.google.com/maps?q=Jl.+HOS+Cokroaminoto+No.10,+Yogyakarta&z=15&output=embed" title="Peta lokasi SMA Garuda Bhakti Pertiwi" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="location-address"><i class="fas fa-map-marker-alt"></i> Jl. HOS Cokroaminoto No.10, Yogyakarta</p>
+        </div>
+    </section>
+
+    <!-- Website Rating -->
+    <section class="website-rating" id="rating">
+        <div class="container">
+            <div class="rating-box">
+                <div class="rating-copy">
+                    <p class="eyebrow">Pendapat Anda</p>
+                    <h2>Bagaimana pengalaman Anda di website kami?</h2>
+                    <p>Berikan penilaian untuk membantu kami meningkatkan layanan informasi sekolah.</p>
+                </div>
+                <form class="rating-form" id="ratingForm">
+                    <div class="rating-stars" role="radiogroup" aria-label="Pilih rating website dari 1 sampai 5 bintang">
+                        <input type="radio" id="rating-5" name="rating" value="5">
+                        <label for="rating-5" title="Sangat baik"><i class="fas fa-star"></i><span class="sr-only">5 bintang</span></label>
+                        <input type="radio" id="rating-4" name="rating" value="4">
+                        <label for="rating-4" title="Baik"><i class="fas fa-star"></i><span class="sr-only">4 bintang</span></label>
+                        <input type="radio" id="rating-3" name="rating" value="3">
+                        <label for="rating-3" title="Cukup"><i class="fas fa-star"></i><span class="sr-only">3 bintang</span></label>
+                        <input type="radio" id="rating-2" name="rating" value="2">
+                        <label for="rating-2" title="Kurang"><i class="fas fa-star"></i><span class="sr-only">2 bintang</span></label>
+                        <input type="radio" id="rating-1" name="rating" value="1">
+                        <label for="rating-1" title="Sangat kurang"><i class="fas fa-star"></i><span class="sr-only">1 bintang</span></label>
+                    </div>
+                    <div class="rating-actions">
+                        <button type="submit" class="rating-submit">Kirim Penilaian</button>
+                        <button type="button" class="rating-cancel" id="cancelRating">Batal</button>
+                    </div>
+                    <p class="rating-message" id="ratingMessage" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <h3>SMA Garuda Bhakti Pertiwi</h3>
+                        <p>Sekolah unggulan yang berkomitmen untuk menghasilkan lulusan berkualitas, berkarakter, dan siap menghadapi tantangan global.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/1AVpjNFxgV/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/garbhap_officialaccout?stkn=MWhzanh1djJnMWVqNw=="><i class="fab fa-instagram"></i></a>
+                            <a href="tiktok.com/@garudabhaktipertiwi_offi"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://youtube.com/@garbhap?si=3cm5l-6-2D_oShLA"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Tautan Cepat</h3>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Kontak</a></li>
+                            <li><a href="#">Kebijakan Privasi</a></li>
+                            <li><a href="#">Syarat & Ketentuan</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Kontak Kami</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. HOS Cokroaminoto No.10, Yogyakarta</p>
+                        <p><i class="fas fa-phone"></i> (0111) 1111</p>
+                        <p><i class="fas fa-envelope"></i> info@smagarudabhaktipertiwi.sch.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 SMA Garuda Bhakti Pertiwi. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
