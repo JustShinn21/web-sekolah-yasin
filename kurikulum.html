@@ -1,0 +1,184 @@
+<section class="kurikulum">
+  <div class="container">
+    <div class="section-title">
+      <p>Program Pendidikan</p>
+      <h2>Kurikulum Sekolah</h2>
+    </div>
+
+    <div class="kurikulum-grid">
+      <div class="kurikulum-card">
+        <div class="icon">📘</div>
+        <h3>Kurikulum Nasional</h3>
+        <p>
+          Mengacu pada standar pendidikan nasional dengan penguatan kompetensi
+          literasi, numerasi, karakter, dan teknologi digital.
+        </p>
+      </div>
+
+      <div class="kurikulum-card">
+        <div class="icon">🧠</div>
+        <h3>Project Based Learning</h3>
+        <p>
+          Siswa belajar melalui proyek nyata agar lebih aktif, kreatif, dan
+          mampu memecahkan masalah dalam kehidupan sehari-hari.
+        </p>
+      </div>
+
+      <div class="kurikulum-card">
+        <div class="icon">🎨</div>
+        <h3>Ekstrakurikuler</h3>
+        <p>
+          Tersedia berbagai kegiatan seperti olahraga, seni, pramuka, robotika,
+          dan organisasi siswa untuk mengembangkan bakat siswa.
+        </p>
+      </div>
+
+      <div class="kurikulum-card">
+        <div class="icon">🌱</div>
+        <h3>Karakter dan Akhlak</h3>
+        <p>
+          Menanamkan nilai kejujuran, disiplin, tanggung jawab, toleransi, dan
+          kepedulian sosial sejak dini.
+        </p>
+      </div>
+    </div>
+
+    <div class="kurikulum-table-wrap">
+      <table class="kurikulum-table">
+        <thead>
+          <tr>
+            <th>Bidang</th>
+            <th>Kompetensi</th>
+            <th>Tujuan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Akademik</td>
+            <td>Literasi, numerasi, sains</td>
+            <td>Meningkatkan kemampuan berpikir logis dan analitis</td>
+          </tr>
+          <tr>
+            <td>Non-Akademik</td>
+            <td>Olahraga, seni, organisasi</td>
+            <td>Mengembangkan bakat dan soft skill siswa</td>
+          </tr>
+          <tr>
+            <td>Karakter</td>
+            <td>Disiplin, sopan santun, tanggung jawab</td>
+            <td>Membentuk siswa yang berakhlak mulia</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .kurikulum {
+    padding: 80px 0;
+    background: #f7f9fc;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-title p {
+    color: #1d4ed8;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+    color: #1f2937;
+    margin: 0;
+  }
+
+  .kurikulum-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+
+  .kurikulum-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .kurikulum-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .kurikulum-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #111827;
+  }
+
+  .kurikulum-card p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .kurikulum-table-wrap {
+    margin-top: 40px;
+    overflow-x: auto;
+  }
+
+  .kurikulum-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  }
+
+  .kurikulum-table th,
+  .kurikulum-table td {
+    padding: 16px 18px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .kurikulum-table th {
+    background: #1d4ed8;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .kurikulum-table td {
+    color: #374151;
+  }
+
+  @media (max-width: 768px) {
+    .section-title h2 {
+      font-size: 1.6rem;
+    }
+  }
+</style>
