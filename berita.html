@@ -1,0 +1,178 @@
+<section class="prestasi">
+  <div class="container">
+    <div class="section-title">
+      <p>Berita Sekolah</p>
+      <h2>Prestasi Terbaru</h2>
+    </div>
+
+    <div class="prestasi-wrapper">
+      <article class="berita-card highlight">
+        <div class="berita-image">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Prestasi siswa sekolah">
+        </div>
+        <div class="berita-content">
+          <span class="tag">Prestasi</span>
+          <h3>Siswa Sekolah Meraih Juara 1 Lomba Olimpiade Matematika Tingkat Kabupaten</h3>
+          <p>
+            Tim peserta didik dari SMA Garuda Bhakti Pertiwiberhasil meraih juara pertama dalam
+            lomba Olimpiade Matematika tingkat kabupaten. Prestasi ini menjadi
+            kebanggaan sekolah dan membuktikan komitmen dalam meningkatkan kualitas
+            pendidikan.
+          </p>
+        </div>
+      </article>
+
+      <div class="berita-grid">
+        <article class="berita-card">
+          <div class="berita-image small">
+            <img src="wastra the arjuna.png" alt="Siswa berprestasi">
+          </div>
+          <div class="berita-content">
+            <span class="tag">Band Musik</span>
+            <h3>Mahasiswa Berhasil Membawa Nama Sekolah di Ajang Kompetisi Band musik di event wastra 2026 di sekolah sma penabur kota bogor</h3>
+            <p>
+              Prestasi membanggakan ini menunjukkan semangat belajar siswa serta
+              dukungan guru dalam membimbing peserta didik meraih prestasi terbaik.
+            </p>
+          </div>
+        </article>
+
+        <article class="berita-card">
+          <div class="berita-image small">
+            <img src="suhafati.png" alt="Prestasi Pramuka">
+          </div>
+          <div class="berita-content">
+            <span class="tag">Pramuka</span>
+            <h3>Pramuka SMA Garuda Bhakti Pertiwi meraih juara umum di perlombaan lokalida 2026</h3>
+            <p>
+              Keberhasilan pramuka sekolah ini menjadi bukti dari dedikasi dan kerja keras mereka dalam mengikuti perlombaan.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .prestasi {
+    padding: 80px 0;
+    background: #f5f7fb;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-title p {
+    color: #1d4ed8;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+    color: #1f2937;
+    margin: 0;
+  }
+
+  .prestasi-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .berita-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .highlight {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+  }
+
+  .berita-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .berita-image.small img {
+    height: 220px;
+  }
+
+  .berita-content {
+    padding: 25px 22px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #dbeafe;
+    color: #1d4ed8;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .berita-content h3 {
+    font-size: 1.6rem;
+    color: #111827;
+    margin: 0 0 12px;
+    line-height: 1.4;
+  }
+
+  .berita-content p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0 0 15px;
+  }
+
+  .berita-content a {
+    text-decoration: none;
+    color: #1d4ed8;
+    font-weight: 700;
+  }
+
+  .berita-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .berita-grid .berita-content h3 {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 768px) {
+    .highlight {
+      grid-template-columns: 1fr;
+    }
+
+    .berita-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-title h2 {
+      font-size: 1.6rem;
+    }
+  }
+</style>
